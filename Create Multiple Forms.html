@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Form Designing</title> 
+  </head>
+  <body>
+    <header>
+      <h2>Already Registered? <u>LOGIN</u> now</h2>
+      <!-- image to be used:
+      https://ninjasfiles.s3.amazonaws.com/0000000000001395.png -->
+
+      <form action="" method="post">
+        <label for="Email">Email</label>
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="abc@gmail.com"
+          required
+        />
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" required />
+        <button type="submit">
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png"
+            alt="Switch To Code"
+            height="10"
+            width="35%"
+          />
+          Login
+        </button>
+      </form>
+    </header>
+    <br />
+    <hr />
+
+    <br />
+    <br />
+
+    <main>
+      <section>
+        <h3>
+          <a href="https://www.codingninjas.com/blog/" target="_blank"
+            >Coding Ninjas Blogs</a
+          >
+        </h3>
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png"
+          alt="I Love Coding"
+          height="250px"
+          width="100%"
+        />
+      </section>
+      <br />
+      <hr />
+      <br />
+
+      <section>
+        <h2><u>REGISTRATION</u></h2>
+        <br />
+
+        <form action="" method="post">
+          <table>
+            <thead>
+              <tr>
+                <td>
+                  <label for="F_Name"
+                    >First
+                    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td><input type="text" name="F_Name" id="F_Name" required /></td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="L_Name"
+                    >Last
+                    Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td><input type="text" name="L_Name" id="L_Name" required /></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="3">Current Address:&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                  <label for="Flat/House">Flat No./House No.</label>
+                  <input
+                    type="number"
+                    name="Flat_No/House_No"
+                    id="Flat/House"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Locality"
+                    >Locality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                  <input type="text" name="Location" id="Locality" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="City"
+                    >City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                  <input type="text" name="City" id="City" required />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <b>Is Current address and Permanent address same?</b>
+                  <input
+                    type="radio"
+                    name="Address_Same"
+                    value="Yes"
+                    checked
+                  />Yes <input type="radio" name="Address_Same" value="No" />No
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Email"
+                    >Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="email"
+                    name="Email"
+                    id="Email"
+                    placeholder="abc@gmail.com"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Password"
+                    >Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                  >
+                </td>
+                <td><input type="password" name="Password" id="Password" required /></td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <button type="submit">Register</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
